@@ -1,0 +1,131 @@
+———— 1.0.0 ———— 
+
+Release made available on WordPress.org
+Settings link added to plugin page.
+
+———— 1.0.1 ———— 
+
+Forced Upsell to use a vouchercode (UPSELL)
+
+———— 1.0.2 ———— 
+
+Add auto updating
+
+———— 1.0.3 ———— 
+
+Support database prefix
+
+———— 1.0.4 ———— 
+
+SKU code support
+
+———— 1.0.5 ———— 
+
+Affiliate tracking enabled and passed through the order process, format: mn=xxxxxxx
+
+———— 1.0.7 ———— 
+
+Updated codehandler to use the correct thankyou page hook
+
+———— 1.0.8 ———— 
+
+Fixed saving options & removed redudanct sales export function
+
+———— 1.0.9 ———— 
+
+Correcting PHP warning with redudanct function
+
+———— 2.0.0 ———— 
+
+Added Subscriptions Renewal Tracking(using re-order IDs)
+Fixed saving issues
+
+———— 2.0.1 ————
+
+Amended post sale tracking query to reflect GTM time zones
+
+———— 3.0.0 ————
+
+Added affiliate tracking exporter
+
+———— 3.0.1 ————
+
+Fix (Removing WP Query Limit)
+
+———— 3.0.2 ————
+
+Fixed CSV writer skipping 1st line of data
+
+———— 3.1.0 ————
+
+Added upsell support for CAKE affiliate tracking
+
+———— 3.1.1 ————
+
+Updates for CAKE affiliate tracking
+
+———— 3.1.2 ————
+
+Added Settings for CAKE
+Added Upsale Pixel on checkout
+Removes Legacy options
+Removes Postsale cron
+Removes Plugin Update Checker
+
+———— 3.1.3 ————
+
+Added action to upsell order tracking hook
+
+———— 3.1.4 ————
+
+Added check for affiliate tracking to avoid redundant tracking
+
+———— 3.1.5 ————
+
+Added direct linking affiliate tracking
+
+———— 3.1.6 ————
+
+Integrate VIP Code into plugin
+Added filter through to mn-ajax
+Fixes rounding issue on debug order note itemvalue
+
+———— 3.1.7 ————
+Amend CSV export to include product images
+Amend CSV export including a column for upsale skus to indicate upsale products
+
+———— 3.1.8 ————
+Amend CSV export fixing fatal error on duplicate skus / names
+Remove VIP code from plugin in favor of wp super cache plugin
+
+———— 3.1.9 ————
+Adds option for affiliate programme ID for direct affiliate tracking
+Checks for referrer and pushes referrer through pixel on success
+Fires upsale pixel only if affiliate ID is available on checkout
+
+———— 3.2.0 ————
+Adds option for reporting on upsell orders
+
+———— 3.2.1 ————
+Added check to only report orders with paid order statuses
+
+———— 3.2.2 ————
+Added options for accepted currencies
+Remove check for referrer before upsale pixel is fired
+
+———— 3.2.3 ————
+Add conditional check on flush rewrite rules
+Fix notices in integration
+
+———— 3.2.4 ————
+Add hash key
+
+———— 3.2.5 ————
+Add option to exclude tax calculations
+
+———— 3.2.5 ————
+Added the AuthPlus utm params for the reconversion into the sale pixel
+
+———— 3.2.7 ————
+Added additional sale pixel params for calculations and order types
+Added order gross total to pixel params
