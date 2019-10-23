@@ -1,7 +1,7 @@
 # moreniche-tracking
 ###Installation Instructions
 
-Upload the moreniche-tracking directory (directory included) to the /wp-content/plugins/ directory.
+Upload the MN-Woocommerce-client directory (directory included) to the /wp-content/plugins/ directory.
 Activate the plugin through the ‘Plugins’ menu in the wordpress admin area.
 
 ###Configuration
