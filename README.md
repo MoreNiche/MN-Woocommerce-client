@@ -1,10 +1,10 @@
 # moreniche-tracking
-###Installation Instructions
+### Installation Instructions
 
 Upload the MN-Woocommerce-client directory (directory included) to the /wp-content/plugins/ directory.
 Activate the plugin through the ‘Plugins’ menu in the wordpress admin area.
 
-###Configuration
+### Configuration
 
 The configuration of the plugin falls under woocommerce settings. In the Wordpress Admin section, hover over woocommerce on the left hand side and select settings on the menu that appears.
 
