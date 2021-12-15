@@ -112,21 +112,21 @@ class Twist_WC_Affiliate_Integration extends WC_Integration {
     function init_form_fields() {
         $this->form_fields = array(
             "cakeSaltKey"            => array(
-                'title'       => __( 'CAKE Security Saltkey', 'wc-affiliate-tracking' ),
+                'title'       => __( 'Security Saltkey', 'wc-affiliate-tracking' ),
                 'description' => __( 'Write something here to add an hash key to secure the sale pixel', 'wc-affiliate-tracking' ),
                 'desc_tip'    => true,
                 'id'          => 'cakeSaltKey',
                 'type'        => 'text',
             ),
             "cakeTrackEndPoint"      => array(
-                'title'       => __( 'CAKE Tracking EndPoint', 'wc-affiliate-tracking' ),
+                'title'       => __( 'Tracking EndPoint', 'wc-affiliate-tracking' ),
                 'description' => __( 'Add the Tracking endpoint e.g. https://sandbox.mixi.mn/ ', 'wc-affiliate-tracking' ),
                 'desc_tip'    => true,
                 'id'          => 'cakeTrackEndPoint',
                 'type'        => 'text',
             ),
             "cakePixel"              => array(
-                'title'       => __( 'CAKE Pixel Mask', 'wc-affiliate-tracking' ),
+                'title'       => __( 'Pixel Mask', 'wc-affiliate-tracking' ),
                 'description' => __( 'Add the mask for the pixel ', 'wc-affiliate-tracking' ),
                 'desc_tip'    => true,
                 'id'          => 'cakePixel',
@@ -145,7 +145,7 @@ class Twist_WC_Affiliate_Integration extends WC_Integration {
                 )
             ),
             "cakeAcceptedCurrencies" => array(
-                'title'       => __( 'CAKE Currencies Accepted', 'wc-affiliate-tracking' ),
+                'title'       => __( 'Currencies Accepted', 'wc-affiliate-tracking' ),
                 'description' => __( 'Enter comma separated currencies accepted i.e USD,GBP,EUR', 'wc-affiliate-tracking' ),
                 'desc_tip'    => true,
                 'id'          => 'cakeAcceptedCurrencies',

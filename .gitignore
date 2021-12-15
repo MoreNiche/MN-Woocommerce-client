@@ -1,0 +1,8 @@
+#phpStorm
+.idea/*
+
+#macOS
+**/.DS_Store
+
+#phpUnit
+.phpunit.result.cache
